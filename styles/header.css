@@ -1,0 +1,26 @@
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	user-select: none;
+	text-align: center;
+	text-shadow: 0 0 5px;
+}
+
+#header h1, #header h2 {
+	margin: 0;
+}
+
+#header p {
+	margin: 0.2em;
+}
+
+#header-text {
+	animation: fadein 1s;
+}
+
+#header-text-delay {
+	animation: fadein 1s 1.5s;
+	animation-fill-mode: both;
+}

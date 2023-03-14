@@ -1,0 +1,19 @@
+#scroll-down {
+	position: fixed;
+	width: 100%;
+	bottom: 40px;
+	animation: fadein-scroll 1s 2s;
+	animation-fill-mode: both;
+}
+
+#scroll-down-icon {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 0.5s ease;
+}
+
+#scroll-down-icon:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 0 5px);
+}

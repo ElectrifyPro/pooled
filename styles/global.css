@@ -23,27 +23,6 @@ h2 {
 	font-size: 80px;
 }
 
-.header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 100vh;
-	user-select: none;
-	text-align: center;
-	animation: fadein 1s;
-}
-
-.header h1, .header h2 {
-	margin: 0;
-}
-
-@keyframes fadein {
-	from {
-		opacity: 0;
-		transform: translateY(20px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+p {
+	font-size: 30px;
 }
