@@ -1,0 +1,49 @@
+body {
+	background-color: #13181c;
+	color: white;
+	font-family: 'Roboto Flex', sans-serif;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 120px;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+	font-variation-settings: "wght" 311;
+	color: #eec9aa;
+	transition: 0.5s ease;
+}
+
+h1:hover {
+	font-variation-settings: "wght" 682;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 80px;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	user-select: none;
+	text-align: center;
+	animation: fadein 1s;
+}
+
+.header h1, .header h2 {
+	margin: 0;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
